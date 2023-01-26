@@ -134,6 +134,7 @@ namespace Project_Mina_app
                  }
                 else
                 {
+                    period = Pdate.Value.Month.ToString() + "" + Pdate.Value.Year.ToString();
 
                 }
 
