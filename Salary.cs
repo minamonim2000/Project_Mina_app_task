@@ -34,7 +34,11 @@ namespace Project_Mina_app
             cbEmps.DisplayMember = con.GetData(Query).Columns["EmpName"].ToString();
             cbEmps.ValueMember = con.GetData(Query).Columns["EmpId"].ToString();
             cbEmps.DataSource = con.GetData(Query);
+
         }
         int Dsal = 0;
         string period = "";
         int d = 1;
+        private void GetSalary()}
+
+        }
