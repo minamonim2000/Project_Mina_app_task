@@ -38,5 +38,10 @@
 
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
+
+
+
+
     }
 }
