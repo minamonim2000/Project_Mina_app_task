@@ -65,7 +65,10 @@ namespace Project_Mina_app
 
         }
         int Key = 0;
+        private void SalaryList_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
+        }
 
 
 
