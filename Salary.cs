@@ -120,6 +120,11 @@ namespace Project_Mina_app
 
         }
 
+        private void cbEmps_SelectionChangeCommitted(object sender, EventArgs e)
+        {
+            GetSalary();
+        }
+
 
 
 
