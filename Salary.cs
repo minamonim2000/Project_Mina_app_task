@@ -148,6 +148,15 @@ namespace Project_Mina_app
                 }
 
 
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+        }
+
+
 
 
 
