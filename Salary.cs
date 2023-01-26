@@ -137,7 +137,7 @@ namespace Project_Mina_app
                     period = Pdate.Value.Month.ToString() + "" + Pdate.Value.Year.ToString();
                     int Amount = Dsal * Convert.ToInt32(DAYS.Text);
                     int days = Convert.ToInt32(DAYS.Text);
-
+                    string Query = "update Salary set Employee={0},Attendance={1},Period='{2}',Amount={3},PayDate='{4}' where SCode={5}";
 
 
 
