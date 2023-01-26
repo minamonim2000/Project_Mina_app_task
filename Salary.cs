@@ -39,6 +39,7 @@ namespace Project_Mina_app
         int Dsal = 0;
         string period = "";
         int d = 1;
-        private void GetSalary()}
-
-        }
+        private void GetSalary()
+        {
+            string Query = "Select EmpSal from Employee where EmpId={0}";
+            Query = string.Format(Query, cbEmps.SelectedValue.ToString());
