@@ -105,8 +105,16 @@ namespace Project_Mina_app
             {
 
 
+                try
+                {
+                    if (EmpName.Text == "" || EmpSalary.Text == "" || cbEmpGen.SelectedIndex == -1 || CbDeptIdEmp.SelectedIndex == -1)
+                    {
+                        MessageBox.Show("Missing Data !!!");
+                    }
 
-            }
+
+
+                }
 
 
 
