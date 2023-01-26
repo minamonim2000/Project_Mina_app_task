@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.Logging;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -36,6 +37,9 @@ namespace Project_Mina_app
             CbDeptIdEmp.ValueMember = con.GetData(Query).Columns["DeptId"].ToString();
             CbDeptIdEmp.DataSource = con.GetData(Query);
 
+        }
+        private void Employee_Load(object sender, EventArgs e)
+        {
         }
 
 
