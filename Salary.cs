@@ -106,6 +106,9 @@ namespace Project_Mina_app
                     Query = string.Format(Query, Convert.ToInt32(cbEmps.SelectedValue.ToString()), days, period, Amount, DateTime.Today.Date);
                     con.SetData(Query);
                     ShowSalaeries();
+                    MessageBox.Show("Salary is Paid !!");
+                    cbEmps.SelectedIndex = -1; DAYS.Text = ""; SalAmount.Text = "";
+
 
 
 
