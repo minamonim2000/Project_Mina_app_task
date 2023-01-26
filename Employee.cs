@@ -40,6 +40,7 @@ namespace Project_Mina_app
         }
         private void Employee_Load(object sender, EventArgs e)
         {
+            Login log = new Login();
         }
 
 
