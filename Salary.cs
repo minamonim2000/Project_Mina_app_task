@@ -84,6 +84,10 @@ namespace Project_Mina_app
             }
 
         }
+        private void Salary_Load(object sender, EventArgs e)
+        {
+
+        }
 
 
 
