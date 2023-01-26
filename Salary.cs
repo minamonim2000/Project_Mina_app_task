@@ -67,9 +67,17 @@ namespace Project_Mina_app
         int Key = 0;
         private void SalaryList_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+
             cbEmps.SelectedValue = Convert.ToInt32(SalaryList.SelectedRows[0].Cells[1].Value.ToString());
             DAYS.Text = SalaryList.SelectedRows[0].Cells[2].Value.ToString();
             SalAmount.Text = SalaryList.SelectedRows[0].Cells[4].Value.ToString();
+
+
+
+            if (cbEmps.SelectedIndex == -1)
+            {
+                Key = 0;
+            }
 
 
         }
