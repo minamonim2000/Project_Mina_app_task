@@ -97,6 +97,11 @@ namespace Project_Mina_app
                 {
                     MessageBox.Show("Missing Data !!!");
                 }
+                else
+                {
+                    period = Pdate.Value.Date.ToString();
+                    
+                }
             }
 
         }
