@@ -136,7 +136,7 @@ namespace Project_Mina_app
                 {
                     period = Pdate.Value.Month.ToString() + "" + Pdate.Value.Year.ToString();
                     int Amount = Dsal * Convert.ToInt32(DAYS.Text);
-
+                    int days = Convert.ToInt32(DAYS.Text);
 
 
 
