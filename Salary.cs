@@ -21,4 +21,9 @@ namespace Project_Mina_app
             con = new Functions();
             ShowSalaeries();
             GetEmployee();
+
+        }
+        private void ShowSalaeries()
+        {
+           
         }
