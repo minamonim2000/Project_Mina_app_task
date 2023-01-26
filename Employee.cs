@@ -142,6 +142,10 @@ namespace Project_Mina_app
 
                 try
                 {
+                    if (Key == 0)
+                    {
+                        MessageBox.Show("Missing Data !!!");
+                    }
 
 
                 }
