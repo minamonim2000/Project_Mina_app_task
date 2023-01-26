@@ -178,6 +178,13 @@ namespace Project_Mina_app
                 this.Hide();
             }
 
+            private void label10_Click(object sender, EventArgs e)
+            {
+                Salary sal = new Salary();
+                sal.Show();
+                this.Hide();
+            }
+
 
         }
 
