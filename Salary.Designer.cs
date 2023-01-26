@@ -45,7 +45,7 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.PictureBox pictureBox3;
-
+        private Guna.UI2.WinForms.Guna2DataGridView SalaryList;
 
 
     }
