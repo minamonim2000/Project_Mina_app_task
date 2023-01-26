@@ -124,6 +124,8 @@ namespace Project_Mina_app
         {
             GetSalary();
         }
+        private void EditBtn_Click(object sender, EventArgs e)
+        {
 
 
 
