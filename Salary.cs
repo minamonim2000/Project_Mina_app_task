@@ -35,3 +35,4 @@ namespace Project_Mina_app
             cbEmps.ValueMember = con.GetData(Query).Columns["EmpId"].ToString();
             cbEmps.DataSource = con.GetData(Query);
         }
+        int Dsal = 0;
