@@ -13,3 +13,12 @@ namespace Project_Mina_app
     public partial class Salary : Form
     {
         Functions con;
+        public Salary()
+        {
+
+            InitializeComponent();
+
+            con = new Functions();
+            ShowSalaeries();
+            GetEmployee();
+        }
