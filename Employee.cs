@@ -68,10 +68,18 @@ namespace Project_Mina_app
             }
 
             private void AddBtn_Click(object sender, EventArgs e)
-            { 
+            {
 
 
-        }
+                try
+                {
+                    if (EmpName.Text == "" || EmpSalary.Text == "" || cbEmpGen.SelectedIndex == -1 || CbDeptIdEmp.SelectedIndex == -1)
+                    {
+                        MessageBox.Show("Missing Data !!!");
+                    }
+
+
+                }
 
 
 
