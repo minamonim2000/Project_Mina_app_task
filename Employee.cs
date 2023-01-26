@@ -21,5 +21,13 @@ namespace Project_Mina_app
             ShowEmployess();
             GetDepartment();
         }
+        private void ShowEmployess()
+        {
+            string Query = "Select * from Employee";
+            EmpList.DataSource = con.GetData(Query);
+
+
+        }
+
     }
 }
