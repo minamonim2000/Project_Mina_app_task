@@ -48,8 +48,7 @@
         private Guna.UI2.WinForms.Guna2DataGridView SalaryList;
         private Guna.UI2.WinForms.Guna2DateTimePicker Pdate;
         private System.Windows.Forms.Label label6;
-
-
+        private System.Windows.Forms.Label label5;
 
 
 
