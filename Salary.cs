@@ -28,3 +28,6 @@ namespace Project_Mina_app
             string Query = "Select * from Salary";
             SalaryList.DataSource = con.GetData(Query);
         }
+        private void GetEmployee()
+        {
+        }
