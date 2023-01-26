@@ -170,6 +170,12 @@ namespace Project_Mina_app
             this.Hide();
         }
 
+        private void label11_Click(object sender, EventArgs e)
+        {
+            Department dep = new Department();
+            dep.Show();
+            this.Hide();
+        }
 
 
 
