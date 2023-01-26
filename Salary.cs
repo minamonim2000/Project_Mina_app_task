@@ -56,7 +56,14 @@ namespace Project_Mina_app
             {
                 MessageBox.Show("Days Can not Be Greater Than 31");
             }
+            else
+            {
+                d = Convert.ToInt32(DAYS.Text);
+                SalAmount.Text = "Rs " + (d * Dsal);
 
+            }
+
+        }
 
 
 
