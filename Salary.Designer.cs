@@ -43,7 +43,7 @@
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox2;
-
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
 
 
 
