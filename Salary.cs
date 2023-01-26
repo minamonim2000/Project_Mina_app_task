@@ -36,3 +36,4 @@ namespace Project_Mina_app
             cbEmps.DataSource = con.GetData(Query);
         }
         int Dsal = 0;
+        string period = "";
