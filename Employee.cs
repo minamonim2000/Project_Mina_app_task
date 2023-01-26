@@ -171,6 +171,13 @@ namespace Project_Mina_app
                 }
             }
 
+            private void label11_Click(object sender, EventArgs e)
+            {
+                Department dp = new Department();
+                dp.Show();
+                this.Hide();
+            }
+
 
         }
 
