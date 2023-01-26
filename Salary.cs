@@ -37,3 +37,4 @@ namespace Project_Mina_app
         }
         int Dsal = 0;
         string period = "";
+        int d = 1;
