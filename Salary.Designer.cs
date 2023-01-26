@@ -40,6 +40,10 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label cc;
+        private System.Windows.Forms.PictureBox pictureBox5;
+
+
+
 
 
 
