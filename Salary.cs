@@ -48,6 +48,10 @@ namespace Project_Mina_app
             {
                 Dsal = Convert.ToInt32(dr["EmpSal"].ToString());
             }
+            if (DAYS.Text == "")
+            {
+                SalAmount.Text = "Rs " + (d * Dsal);
+            }
 
 
 
