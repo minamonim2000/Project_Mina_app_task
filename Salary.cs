@@ -110,10 +110,12 @@ namespace Project_Mina_app
                     cbEmps.SelectedIndex = -1; DAYS.Text = ""; SalAmount.Text = "";
 
 
-
-
-
                 }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
             }
 
         }
