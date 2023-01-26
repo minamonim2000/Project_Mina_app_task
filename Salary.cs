@@ -148,7 +148,6 @@ namespace Project_Mina_app
 
                 }
 
-
             }
             catch (Exception ex)
             {
@@ -161,6 +160,13 @@ namespace Project_Mina_app
         {
             Login log = new Login();
             log.Show();
+            this.Hide();
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+            Salary sal = new Salary();
+            sal.Show();
             this.Hide();
         }
 
