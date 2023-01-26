@@ -59,5 +59,6 @@
         private Guna.UI2.WinForms.Guna2DateTimePicker EmpDate;
         private Guna.UI2.WinForms.Guna2DateTimePicker JDate;
         private Guna.UI2.WinForms.Guna2DataGridView EmpList;
+        private System.Windows.Forms.Button AddBtn;
     }
 }
