@@ -12,9 +12,14 @@ namespace Project_Mina_app
 {
     public partial class Employee : Form
     {
+        private Functions con;
         public Employee()
         {
+
             InitializeComponent();
+            con = new Functions();
+            ShowEmployess();
+            GetDepartment();
         }
     }
 }
