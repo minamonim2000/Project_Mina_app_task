@@ -25,5 +25,6 @@ namespace Project_Mina_app
         }
         private void ShowSalaeries()
         {
-           
+            string Query = "Select * from Salary";
+            SalaryList.DataSource = con.GetData(Query);
         }
