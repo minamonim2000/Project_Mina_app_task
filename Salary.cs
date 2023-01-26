@@ -43,3 +43,13 @@ namespace Project_Mina_app
         {
             string Query = "Select EmpSal from Employee where EmpId={0}";
             Query = string.Format(Query, cbEmps.SelectedValue.ToString());
+
+            foreach (DataRow dr in con.GetData(Query).Rows)
+            {
+                Dsal = Convert.ToInt32(dr["EmpSal"].ToString());
+            }
+
+
+
+
+
