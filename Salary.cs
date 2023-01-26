@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.Logging;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -154,6 +155,13 @@ namespace Project_Mina_app
                 MessageBox.Show(ex.Message);
             }
 
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+            Login log = new Login();
+            log.Show();
+            this.Hide();
         }
 
 
