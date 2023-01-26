@@ -77,7 +77,25 @@ namespace Project_Mina_app
                     {
                         MessageBox.Show("Missing Data !!!");
                     }
+                    else
+                    {
+                        string name = EmpName.Text.ToString();
+                        int depid = Convert.ToInt32(CbDeptIdEmp.SelectedValue.ToString());
+                        string gender = cbEmpGen.SelectedItem.ToString();
+                        string date = EmpDate.Value.Date.ToString();
+                        string jdate = JDate.Value.Date.ToString();
+                        int Salary = Convert.ToInt32(EmpSalary.Text.ToString());
 
+
+                        string Query = "insert into Employee values('{0}','{1}','{2}','{3}','{4}','{5}')";
+                        Query = string.Format(Query, name, gender, depid, date, jdate, Salary);
+                        con.SetData(Query);
+                        ShowEmployess();
+                        MessageBox.Show("Employee Added!!!");
+                        EmpName.Text = ""; EmpSalary.Text = ""; CbDeptIdEmp.SelectedIndex = -1;
+                        cbEmpGen.SelectedIndex = -1;
+                    }
+                }
 
                 }
 
