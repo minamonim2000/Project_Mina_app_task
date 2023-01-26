@@ -101,9 +101,12 @@ namespace Project_Mina_app
                     MessageBox.Show(ex.Message);
                 }
             }
+            private void EditBtn_Click(object sender, EventArgs e)
+            {
 
 
-        }
+
+            }
 
 
 
