@@ -93,6 +93,10 @@ namespace Project_Mina_app
         {
             try
             {
+                if (cbEmps.SelectedIndex == -1 || DAYS.Text == "")
+                {
+                    
+                }
             }
 
         }
