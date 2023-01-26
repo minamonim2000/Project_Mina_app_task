@@ -95,7 +95,7 @@ namespace Project_Mina_app
             {
                 if (cbEmps.SelectedIndex == -1 || DAYS.Text == "")
                 {
-                    
+                    MessageBox.Show("Missing Data !!!");
                 }
             }
 
