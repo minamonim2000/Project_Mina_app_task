@@ -30,4 +30,8 @@ namespace Project_Mina_app
         }
         private void GetEmployee()
         {
+            string Query = "Select * from Employee";
+            cbEmps.DisplayMember = con.GetData(Query).Columns["EmpName"].ToString();
+            cbEmps.ValueMember = con.GetData(Query).Columns["EmpId"].ToString();
+            cbEmps.DataSource = con.GetData(Query);
         }
