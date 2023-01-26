@@ -87,7 +87,17 @@ namespace Project_Mina_app
         private void Salary_Load(object sender, EventArgs e)
         {
 
+
         }
+        private void AddBtn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+            }
+
+        }
+
+
 
 
 
