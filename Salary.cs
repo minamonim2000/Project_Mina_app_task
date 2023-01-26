@@ -78,7 +78,10 @@ namespace Project_Mina_app
             {
                 Key = 0;
             }
-
+            else
+            {
+                Key = Convert.ToInt32(SalaryList.SelectedRows[0].Cells[0].Value.ToString());
+            }
 
         }
 
