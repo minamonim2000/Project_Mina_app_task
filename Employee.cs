@@ -165,9 +165,14 @@ namespace Project_Mina_app
                         cbEmpGen.SelectedIndex = -1;
                     }
                 }
-
-
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
                 }
+            }
+
+
+        }
 
 
 
