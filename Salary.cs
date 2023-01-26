@@ -102,6 +102,7 @@ namespace Project_Mina_app
                     period = Pdate.Value.Date.ToString();
                     int Amount = Dsal * Convert.ToInt32(DAYS.Text);
                     int days = Convert.ToInt32(DAYS.Text);
+                    string Query = "insert into Salary values({0},{1},'{2}',{3},'{4}')";
 
 
 
