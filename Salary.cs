@@ -186,7 +186,3 @@ namespace Project_Mina_app
     }
 }
 
-
-
-
-

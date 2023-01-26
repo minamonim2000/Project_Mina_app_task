@@ -21,6 +21,7 @@ namespace Project_Mina_app
             ShowEmployess();
             GetDepartment();
         }
+
         private void ShowEmployess()
         {
             string Query = "Select * from Employee";
@@ -28,6 +29,13 @@ namespace Project_Mina_app
 
 
         }
+        private void GetDepartment()
+        {
+            string Query = "Select * from Department";
+            CbDeptIdEmp.DisplayMember = con.GetData(Query).Columns["DeotName"].ToString();
+            CbDeptIdEmp.ValueMember = con.GetData(Query).Columns["DeptId"].ToString();
+            CbDeptIdEmp.DataSource = con.GetData(Query);
 
-    }
-}
+        }
+
+
