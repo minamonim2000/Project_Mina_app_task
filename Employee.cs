@@ -111,7 +111,25 @@ namespace Project_Mina_app
                     {
                         MessageBox.Show("Missing Data !!!");
                     }
+                    else
+                    {
+                        string name = EmpName.Text.ToString();
+                        int id = Convert.ToInt32(CbDeptIdEmp.SelectedValue.ToString());
+                        string gender = cbEmpGen.SelectedItem.ToString();
+                        string date = EmpDate.Value.Date.ToString();
+                        string jdate = JDate.Value.Date.ToString();
+                        int Salary = Convert.ToInt32(EmpSalary.Text.ToString());
 
+
+                        string Query = "Update Employee set EmpName='{0}',EmpGen='{1}',EmpDep='{2}',EmpDDB='{3}',EmpDate='{4}',EmpSal='{5}' Where EmpId='{6}'";
+                        Query = string.Format(Query, name, gender, id, date, jdate, Salary, Key);
+                        con.SetData(Query);
+                        ShowEmployess();
+                        MessageBox.Show("Employee Updated!!!");
+                        EmpName.Text = ""; EmpSalary.Text = ""; CbDeptIdEmp.SelectedIndex = -1;
+                        cbEmpGen.SelectedIndex = -1;
+                    }
+                }
 
 
                 }
