@@ -177,6 +177,15 @@ namespace Project_Mina_app
             this.Hide();
         }
 
+        private void cc_Click(object sender, EventArgs e)
+        {
+            Employee emp = new Employee();
+            emp.Show();
+            this.Hide();
+        }
+    }
+}
+
 
 
 
