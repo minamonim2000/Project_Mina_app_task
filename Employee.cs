@@ -185,9 +185,14 @@ namespace Project_Mina_app
                 this.Hide();
             }
 
-
+            private void label9_Click(object sender, EventArgs e)
+            {
+                Login log = new Login();
+                log.Show();
+                this.Hide();
+            }
         }
-
+    }
 
 
 
