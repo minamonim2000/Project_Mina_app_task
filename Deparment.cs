@@ -15,5 +15,12 @@ namespace Project_Mina_app
 
 
         Functions con;
+        public Department()
+        {
+            InitializeComponent();
+            con = new Functions();
+            ShowDepartmentList();
+
+        }
     }
 }
