@@ -74,7 +74,16 @@ namespace Project_Mina_app
                 {
                     MessageBox.Show("Missing Data !!!");
                 }
+                else
+                {
 
+                    string Query = "Update Department set DeotName='{0}' where DeptId={1}";
+                    Query = string.Format(Query, DeptName.Text, key);
+                    con.SetData(Query);
+                    ShowDepartmentList();
+                    MessageBox.Show("Department Updated!!!");
+                }
+            }
 
 
             }
