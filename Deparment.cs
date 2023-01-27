@@ -55,6 +55,11 @@ namespace Project_Mina_app
         int key = 0;
         private void DeptList_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            DeptName.Text = DeptList.SelectedRows[0].Cells[1].Value.ToString();
+            if (DeptName.Text == "")
+            {
+                key = 0;
+            }
 
 
 
