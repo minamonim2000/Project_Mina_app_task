@@ -12,9 +12,8 @@ namespace Project_Mina_app
 {
     public partial class Deparment : Form
     {
-        public Deparment()
-        {
-            InitializeComponent();
-        }
+
+
+        Functions con;
     }
 }

@@ -192,6 +192,24 @@ namespace Project_Mina_app
                 this.Hide();
             }
         }
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // Employee
+            // 
+            this.ClientSize = new System.Drawing.Size(1293, 708);
+            this.Name = "Employee";
+            this.Load += new System.EventHandler(this.Employee_Load_1);
+            this.ResumeLayout(false);
+
+        }
+
+        private void Employee_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 
 
