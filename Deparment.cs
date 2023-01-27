@@ -90,5 +90,9 @@ namespace Project_Mina_app
             }
         }
 
+        private void DeleteBtn_Click(object sender, EventArgs e)
+
+
+
 
     }
