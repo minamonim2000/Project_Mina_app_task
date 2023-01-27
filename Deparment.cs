@@ -98,6 +98,16 @@ namespace Project_Mina_app
                 {
                     MessageBox.Show("Missing Data !!!");
                 }
+                else
+                {
+
+                    string Query = "delete Department where DeptId='{0}'";
+                    Query = string.Format(Query, key);
+                    con.SetData(Query);
+                    ShowDepartmentList();
+                    MessageBox.Show("Department Deleted!!!");
+                }
+            }
 
 
 
