@@ -53,7 +53,9 @@ namespace Project_Mina_app
         }
 
         int key = 0;
+        private void DeptList_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
 
 
-    }
+        }
