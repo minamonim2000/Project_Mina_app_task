@@ -46,9 +46,13 @@ namespace Project_Mina_app
                     MessageBox.Show("Department Added!!!");
                 }
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
 
 
 
 
-
-}
+    }
