@@ -32,7 +32,11 @@ namespace Project_Mina_app
         {
             try
             {
-            }
+                if (DeptName.Text == "")
+                {
+                    MessageBox.Show("Missing Data !!!");
+                }
+            
 
 
 
