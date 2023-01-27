@@ -36,7 +36,18 @@ namespace Project_Mina_app
                 {
                     MessageBox.Show("Missing Data !!!");
                 }
-            
+                else
+                {
+
+                    string Query = "insert into Department values('{0}')";
+                    Query = string.Format(Query, DeptName.Text);
+                    con.SetData(Query);
+                    ShowDepartmentList();
+                    MessageBox.Show("Department Added!!!");
+                }
+            }
+
+
 
 
 
