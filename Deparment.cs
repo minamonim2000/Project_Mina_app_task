@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.Logging;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -125,6 +126,15 @@ namespace Project_Mina_app
             sal.Show();
             this.Hide();
         }
+        private void label6_Click(object sender, EventArgs e)
+        {
+            Login log = new Login();
+            log.Show();
+            this.Hide();
+        }
+    }
+}
+
 
 
 
