@@ -22,5 +22,11 @@ namespace Project_Mina_app
             ShowDepartmentList();
 
         }
+
+        private void ShowDepartmentList()
+        {
+            string Query = "Select * from Department";
+            DeptList.DataSource = con.GetData(Query);
+        }
     }
 }
