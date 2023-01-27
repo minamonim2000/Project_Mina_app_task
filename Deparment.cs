@@ -108,8 +108,13 @@ namespace Project_Mina_app
                     MessageBox.Show("Department Deleted!!!");
                 }
             }
-
-
-
-
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
             }
+        }
+
+
+
+
+    }
